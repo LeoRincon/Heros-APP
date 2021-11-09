@@ -1,1 +1,1 @@
-export { Marvel } from './Marvel';
+export { MarvelScreen } from './MarvelScreen';
