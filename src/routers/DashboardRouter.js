@@ -4,13 +4,13 @@ import { Routes, Route } from 'react-router-dom';
 
 import { MarvelScreen } from '../pages/marvel';
 import { DcScreen } from '../pages/dcScreen';
-import { HeroScreen } from '../components/heroes/HeroScreen';
+import { HeroScreen } from '../components/heroes';
 
 export const DashboardRouter = () => {
   return (
     <>
       <Navbar />
-      <div>
+      <div className='container mt-3'>
         <Routes>
           <Route exact path='/marvel' element={<MarvelScreen />} />
           <Route exact path='/heroe/:heroeId' element={<HeroScreen />} />

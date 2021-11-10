@@ -5,8 +5,7 @@ export const LoginScreen = () => {
   let history = useNavigate();
 
   const handleLogin = () => {
-    history('/dc');
-    console.log(history);
+    history('/');
   };
 
   return (
