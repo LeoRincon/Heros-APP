@@ -2,10 +2,10 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export const LoginScreen = () => {
-  let history = useNavigate();
+  let navigate = useNavigate();
 
   const handleLogin = () => {
-    history('/');
+    navigate('/', { replace: true });
   };
 
   return (

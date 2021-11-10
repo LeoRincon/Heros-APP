@@ -13,7 +13,7 @@ export const DashboardRouter = () => {
       <div className='container mt-3'>
         <Routes>
           <Route exact path='/marvel' element={<MarvelScreen />} />
-          <Route exact path='/heroe/:heroeId' element={<HeroScreen />} />
+          <Route exact path='/hero/:heroeId' element={<HeroScreen />} />
           <Route exact path='/dc' element={<DcScreen />} />
           <Route path='*' element={<MarvelScreen />} />
         </Routes>
