@@ -17,10 +17,13 @@ export const Navbar = () => {
           <NavLink className='nav-item nav-link' exact='true' to='/dc'>
             DC
           </NavLink>
+          <NavLink className='nav-item nav-link' exact='true' to='/search'>
+            Search
+          </NavLink>
         </div>
       </div>
 
-      <div className='navbar-collapse collapse w-100 order-3 dual-collapse2'>
+      <div className='navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end px-4'>
         <ul className='navbar-nav ml-auto'>
           <NavLink className='nav-item nav-link' exact='true' to='/login'>
             Logout
