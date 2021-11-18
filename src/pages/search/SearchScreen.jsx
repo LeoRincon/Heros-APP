@@ -1,6 +1,5 @@
 import React, { useMemo } from 'react';
-import { useLocation } from 'react-router';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import queryString from 'query-string';
 
 import { useForm } from '../../hooks/useForm';
