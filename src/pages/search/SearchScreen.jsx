@@ -57,7 +57,7 @@ export const SearchScreen = () => {
         )}
         {searchQuery !== '' && heroesFiltered.length === 0 ? (
           <p className='alert alert-danger'>
-            No Heroes Found ingresa un nombre valido en el input
+            {`${searchQuery}: Heroes Found ingresa un nombre valido en el input`}
           </p>
         ) : (
           renderHeroFound(heroesFiltered)

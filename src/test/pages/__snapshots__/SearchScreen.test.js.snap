@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in <SearchScreen /> when is called should be displayed correctly with dafault values 1`] = `
+<section
+  className="container"
+>
+  <h2>
+    SearchScreen
+  </h2>
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find for Hero..."
+          type="text"
+          value=""
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    />
+    <h4>
+      Result
+    </h4>
+    <p
+      className="alert alert-info"
+    >
+      Search a Hero
+    </p>
+  </div>
+</section>
+`;
+
+exports[`test in <SearchScreen /> when is called should show anyone Hero and the input with queryString value 1`] = `
+<section
+  className="container"
+>
+  <h2>
+    SearchScreen
+  </h2>
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find for Hero..."
+          type="text"
+          value="batman"
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    />
+    <h4>
+      Result
+    </h4>
+    <div
+      className="card ms-3 animate__animated animate__fadeIn"
+      style={
+        Object {
+          "maxWidth": 540,
+        }
+      }
+    >
+      <div
+        className="row no-gutters"
+      >
+        <div
+          className="col-md-4"
+        >
+          <img
+            alt="Batman"
+            className="card-img"
+            src="./assets/heroes/dc-batman.jpg"
+          />
+        </div>
+        <div
+          className="col-md-8"
+        >
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Batman
+               (
+              Bruce Wayne
+              )
+            </h5>
+            <p
+              className="card-text mb-5"
+            >
+               
+              First Appearance:
+              <small
+                className="text-muted"
+              >
+                 
+                Detective Comics #27
+              </small>
+            </p>
+            <a
+              className="btn btn-primary "
+              href="/hero/dc-batman"
+              onClick={[Function]}
+            >
+              Ver más
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`test in <SearchScreen /> when is called should show error if not find the hero 1`] = `
+<section
+  className="container"
+>
+  <h2>
+    SearchScreen
+  </h2>
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find for Hero..."
+          type="text"
+          value="anyOneHero"
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    />
+    <h4>
+      Result
+    </h4>
+    <p
+      className="alert alert-danger"
+    >
+      anyOneHero: Heroes Found ingresa un nombre valido en el input
+    </p>
+  </div>
+</section>
+`;
