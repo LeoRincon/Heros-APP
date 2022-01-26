@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests in <NavBar /> when is called should be displayed correctly NavBar 1`] = `
+<nav
+  className="navbar navbar-expand-sm navbar-dark bg-dark"
+>
+  <a
+    className="navbar-brand"
+    href="/"
+    onClick={[Function]}
+  >
+    Asociaciones
+  </a>
+  <div
+    className="navbar-collapse"
+  >
+    <div
+      className="navbar-nav"
+    >
+      <a
+        className="nav-item nav-link "
+        href="/marvel"
+        onClick={[Function]}
+      >
+        Marvel
+      </a>
+      <a
+        className="nav-item nav-link "
+        href="/dc"
+        onClick={[Function]}
+      >
+        DC
+      </a>
+      <a
+        className="nav-item nav-link "
+        href="/search"
+        onClick={[Function]}
+      >
+        Search
+      </a>
+    </div>
+  </div>
+  <div
+    className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end px-4"
+  >
+    <nav
+      className="navbar-nav ml-auto"
+    >
+      <span
+        className="nav-item nav-link text-info"
+      >
+        Pedro
+      </span>
+      <button
+        className="nav-item nav-link btn"
+        exact="true"
+        onClick={[Function]}
+        to="/login"
+      >
+        Logout
+      </button>
+    </nav>
+  </div>
+</nav>
+`;
