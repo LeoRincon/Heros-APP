@@ -5,7 +5,6 @@ import { AuthContext } from '../auth/AuthContext';
 
 export const PrivateRoute = ({ children }) => {
   const { user } = useContext(AuthContext);
-  console.log(user);
 
   const { pathname, search } = useLocation();
 
