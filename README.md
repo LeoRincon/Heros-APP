@@ -105,4 +105,8 @@ export const PublicRoute = ({ children }) => {
 - run the tests: _`npm test`_ or _`yarn test`_
 - link to deployed project:
 
-### This project is the final result of the ReactJS course taught by Fernando Herrera
+## Testing
+
+The tests carried out were integration into components, calls and structure
+
+## This project is the final result of the ReactJS course taught by Fernando Herrera
