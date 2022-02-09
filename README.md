@@ -99,7 +99,7 @@ export const PublicRoute = ({ children }) => {
 
 ## Configuration
 
-- clone the project:
+- clone the project: https://github.com/LeoRincon/Heros-APP
 - install dependencies: _npm i_ or _yarn add_
 - run the app: _npm run start_ or _yarn start_
 - run the tests: _`npm test`_ or _`yarn test`_
