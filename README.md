@@ -103,7 +103,7 @@ export const PublicRoute = ({ children }) => {
 - install dependencies: _npm i_ or _yarn add_
 - run the app: _npm run start_ or _yarn start_
 - run the tests: _`npm test`_ or _`yarn test`_
-- link to deployed project:
+- link to deployed project: https://heros-app-react.netlify.app/login
 
 ## Testing
 
